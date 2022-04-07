@@ -1,0 +1,404 @@
+/*my rulz */
+body
+{
+    
+}
+
+.container
+{
+    width: 1170px;
+    margin: auto
+}
+
+.clear-fix
+{
+    clear: both
+}
+
+/*Start header*/
+
+header
+{
+    background-image: url(../Images/1.jpg);
+    background-size: cover;
+    height: 820px;
+    box-shadow: 5px 5px 10px #b2b2b2
+}
+
+header .container nav
+{
+    height: 100px
+}
+
+header .container nav p
+{
+    float: left;
+    color: #fff;
+    font-size: 30px;
+    margin-top: 12px
+}
+
+header .container nav span
+{
+    color: #080
+}
+
+header .container a
+{
+    float: right;
+    margin: 20px;
+    color: #fff
+}
+
+header .container a .fa-facebook:hover
+{
+    color: #4992ff
+}
+
+header .container a .fa-twitter:hover
+{
+    color: #7bcdf9
+}
+
+header .container a .fa-google-plus:hover
+{
+   color: #ff6868 
+}
+
+header .container h1
+{
+    color: #fff;
+    padding-top: 200px;
+    font-size: 60px
+}
+
+header .container p
+{
+    color: #c6c6c6;
+    font-size: 20px
+}
+
+header .container button
+{
+    height: 50px;
+    width: 180px;
+    margin: 10px;
+    color: #fff;
+    cursor: pointer
+}
+
+header .container .Get
+{
+    background-color: #080;
+    border: 2px solid #080;
+    border-radius: 25px
+}
+
+header .container .Get:hover
+{
+    color: #080;
+    background: none
+}
+
+header .container .More
+{
+    background: none;
+    border: 2px solid #c6c6c6;
+    border-radius: 25px
+}
+
+header .container .More:hover
+{
+   color: #080 
+}
+/*End header*/
+
+/*Start 1st s*/
+.first
+{
+    height: 800px
+}
+
+.first .container h1
+{
+    font-size: 60px;
+    padding-top: 60px
+}
+
+.first .container h1 span
+{
+    color: #080
+}
+
+.first .container div
+{
+    float: left;
+    width: 33.3333%;
+    margin-top: 80px
+}
+
+.first .container div h3
+{
+    color: #080
+}
+
+.first .container div p
+{
+    color: #b2b2b2
+}
+/*End 1st s*/
+
+/*Start 2nd s*/
+.second
+{
+    height: 400px;
+    background-color: #080;
+    box-shadow: 3px 3px 10px #b2b2b2
+}
+
+.second .container div
+{
+    float: left;
+    width: 50%;
+    color: #fff
+}
+
+.second .container div img
+{
+    height: 96%;
+    width: 96%;
+    border: 8px solid #41b674;
+    border-radius: 5px
+}
+
+.second .container div h3
+{
+    margin: 30px
+}
+
+.second .container div p
+{
+    margin: 30px
+}
+/*End 2nd s*/
+
+/*Start 3rd s */
+ .third
+ {
+    height: 1000px
+ }
+ 
+ .third .container h2
+ {
+    text-align: center;
+    padding-top: 80px
+ }
+ 
+ .third .container p
+ {
+    color: #b2b2b2;
+    text-align: center
+ }
+ 
+ .third .container article
+ {
+    float: left;
+    width: 40%;
+    margin: 4.5%;
+    text-align: center;
+    border: 2px solid #000;
+    height: 460px
+ }
+ 
+ .third .container article h3
+ {
+    height: 60px;
+    width: 468px;
+    margin: auto;
+    padding-top: 20px;
+    color: #fff
+ }
+ 
+ .third .container .left h3
+ {
+    background-color: #43444b;
+ }
+ 
+ .third .container .right h3
+ {
+    background-color: #080;
+ }
+ 
+ .third .container article h1 span
+ {
+    color: #080
+ }
+ 
+ .third .container article p
+ {
+    margin: 30px 15px
+ }
+ 
+ .third .container article button
+ {
+    height: 50px;
+    width: 160px;
+    margin: 20px;
+    background-color: #080;
+    color: #fff;
+    border:  2px solid #080;
+    cursor: pointer 
+ }
+ 
+ .third .container article button:hover
+ {
+    background-color: #43444b
+ }
+ 
+ .third .container .bottom
+ {
+    height: 160px;
+    width: 89.5%;
+    margin-top: 600px;
+    margin-left: 49px;
+    border: 2px solid #000
+ }
+ 
+ .third .container .bottom i
+ {
+    display: inline-block;
+    padding: 20px;
+    margin-top: 35px;
+    margin-left: 20px;
+    color: #080;
+    border: 4px solid #080;
+    border-radius: 50%
+ }
+ 
+ .third .container .bottom h3
+ {
+    margin: -90px 0 -10px 160px;
+    font-size: 30px
+ }
+ 
+ .third .container .bottom p
+ {
+    display: inline;
+    margin-left: 160px
+ }
+/*End 3rd s*/
+
+/*Start footer */
+footer
+{
+    background-color: #43444b;
+    height: 500px
+}
+
+footer .container div
+{
+    float: left;
+    width: 38%;
+    margin: 70px 2px 30px 2px;
+    height: 300px
+}
+
+footer .container .links
+{
+    float: left;
+    width: 18%;
+    border-left: 2px solid #b2b2b2;
+    border-right:  2px solid #b2b2b2
+}
+
+footer .container h1
+{
+    color: #fff;
+    font-size: 26px;
+    padding-top: 40px
+}
+
+footer .container h1 span
+{
+    color: #080
+}
+
+footer .container p
+{
+    color: #b2b2b2 
+}
+
+footer .container div a i
+{
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+    margin: 5px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    cursor: pointer
+}
+
+footer .container div a .fa-facebook
+{
+    padding: 7px 12px 7px 12px
+}
+
+footer .container div a .fa-twitter
+{
+    padding: 6px
+}
+
+footer .container div a .fa-google-plus
+{
+    padding: 7px 2px 7px 2px
+}
+
+footer .container div a .fa-facebook:hover
+{
+    color: #4992ff;
+    border: 2px solid #4992ff;
+    border-radius: 50%
+}
+
+footer .container div a .fa-twitter:hover
+{
+    color: #7bcdf9;
+    border: 2px solid #7bcdf9;
+    border-radius: 50%
+}
+
+footer .container div a .fa-google-plus:hover
+{
+   color: #ff6868;
+   border: 2px solid #ff6868;
+   border-radius: 50%
+}
+
+
+footer .container .links a
+{
+    display: block;
+    padding: 14px 8px 8px 66px;
+    color: #fff;
+    border: none;
+    text-align: left;
+    cursor: pointer
+}
+
+footer .container button
+{
+    background: none;
+    border: 2px solid #c6c6c6;
+    border-radius: 25px;
+    width: 120px;
+    height: 40px;
+    margin-top: 55px;
+    cursor: pointer
+}
+
+footer .container button:hover
+{
+   color: #080 
+}
+/*End footer*/
